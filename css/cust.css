@@ -1,0 +1,58 @@
+.bs-callout-info {
+    border-left: 5px solid #1b809e !important;
+}
+
+.bs-callout-orange {
+    border-left: 5px solid #FF6633 !important;
+}
+
+.bs-callout-green {
+    border-left: 5px solid #FF6633 !important;
+}
+
+.bs-callout-red {
+    border-left: 5px solid #CC0000 !important;
+}
+
+.bs-callout-yellow {
+    border-left: 5px solid #FFCC00 !important;
+}
+
+
+.bs-callout-purple {
+    border-left: 5px solid #993399 !important;
+}
+
+
+.bs-callout-pink {
+    border-left: 5px solid #CC6699 !important;
+}
+
+
+.bs-callout-009999 {
+    border-left: 5px solid #009999 !important;
+}
+
+
+.bs-callout-CCCCFF {
+    border-left: 5px solid #CCCCFF !important;
+}
+
+.bs-callout-gray {
+    border-left: 5px solid #6D6D6D !important;
+}
+
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #08AAAA;
+    border-image: none;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    margin: 0px 0;
+    padding: 6px;
+    text-align:left;
+}
