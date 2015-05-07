@@ -18,13 +18,14 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<!--<script src="js/Chart.js"></script>-->
-		<script src="js/timeliner/js/timeliner.js"></script>
-		
-	 <link rel="stylesheet" href="css/animate.min.css">
+			<script type="text/javascript" src="js/timeliner/inc/colorbox.js"></script>
+	<script type="text/javascript" src="js/timeliner/js/timeliner.js"></script>
+		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="css/cust.css">
-		<link rel="stylesheet" href="js/timeliner/css/timeliner.css" type="text/css" >
-
-
+	<link rel="stylesheet" href="js/timeliner/css/timeliner.css" type="text/css" media="screen">
+	
+	<link rel="stylesheet" href="js/timeliner/inc/colorbox.css" type="text/css" media="screen">
+		
 
 		
 		<noscript>
@@ -123,12 +124,100 @@
 						</section>
 <section id="experience">
 <div class="container">
+
 <h3>Experience</h3>
 
-
-
 <div class="row">
-					<iframe src= "js/timeliner/timeliner.html"  width="600" height="600" frameborder="1"> </iframe>
+
+<div id="timeline" class="timeline-container">
+<button class="timeline-toggle">+ expand all</button>
+
+			<div class="timeline-wrapper tl-callout-yellow">
+				<h2 class="timeline-time"><span class="tl-span-yellow">2011-Present (Singapore)</span></h2>
+				<dl class="timeline-series ">
+					<dt id="19540517" class="timeline-event"><a>APAC IT Development Team Lead at FedEx Express
+</a></dt>
+					<dd class="timeline-event-content" id="19540517EX">
+						
+						<br>
+						
+						<p><i class="fa fa-check-square"></i>				
+						 Lead a development team to develop and design a logistic system for FedEx external customer to support Sales/Marketing Revenue ( $$ M USD/per year ).
+						</p>
+						
+						<p><i class="fa fa-check-square"></i>	
+						Customer facing, advisory role to customers on functional processes and IT capabilities to support the sales overall APAC, US and EMEA.
+						</p>
+						
+						<p><i class="fa fa-check-square"></i>	
+						Provide Project Management leadership with cross-functional team on the different scale projects & process re-engineering improvement initiatives.
+						
+						</p>
+						<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+				</dl><!-- /.timeline-series -->
+			</div><!-- /.timeline-wrapper -->
+			<div class="timeline-wrapper ">
+				<h2 class="timeline-time"><span >2009-2011 (Singapore)</span></h2>
+				<dl class="timeline-series ">
+					<dt id="19550828" class="timeline-event"><a>Senior Program Analyst at FedEx Express</a></dt>
+					<dd class="timeline-event-content" id="19550828EX">
+					
+					</dd><!-- /.timeline-event-content -->
+			
+				</dl><!-- /.timeline-series -->
+			</div><!-- /.timeline-wrapper -->
+
+			<div class="timeline-wrapper ">
+				<h2 class="timeline-time"><span >2007-2009 (Singapore)</span></h2>
+				<dl class="timeline-series">
+					<dt id="19570904" class="timeline-event"><a>Program Analyst at FedEx Express</a></dt>
+					<dd class="timeline-event-content" id="19570904EX">
+					
+					</dd><!-- /.timeline-event-content -->
+				</dl><!-- /.timeline-series -->
+			</div><!-- /.timeline-wrapper -->
+
+			<div class="timeline-wrapper">
+				<h2 class="timeline-time"><span>2004-2007  (Shanghai, China)</span></h2>
+				<dl class="timeline-series">
+					<dt id="19610504" class="timeline-event"><a>Senior Software Engineer at SMIC</a></dt>
+					<dd class="timeline-event-content" id="19610504EX">
+						
+						<br>
+						
+						<p><i class="fa fa-check-square"></i>				
+						Developed and maintained CIM systems base on J2EE for meet the fabrication operations requirements.
+						</p>
+						
+						<p><i class="fa fa-check-square"></i>	
+						Maintained and enhancement the OLAP Report System base on the Struts, EJB on WebLogic Server.
+						</p>
+						
+						<p><i class="fa fa-check-square"></i>	
+						Developed Web System for analysis FAB overall equipment efficiency (OEE) using the Oracle PL/SQL, and shell script.
+						
+						</p>
+						<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+				</dl><!-- /.timeline-series -->
+			</div><!-- /.timeline-wrapper -->
+			
+			<div class="timeline-wrapper">
+				<h2 class="timeline-time"><span>2000-2004  (Shanghai, China)</span></h2>
+				<dl class="timeline-series">
+					<dt id="20002004" class="timeline-event"><a>Degree. B.S in Computer Science in Shanghai Ocean University </a></dt>
+					<dd class="timeline-event-content" id="20002004EX">
+						
+					</dd><!-- /.timeline-event-content -->
+				</dl><!-- /.timeline-series -->
+			</div><!-- /.timeline-wrapper -->
+			
+
+
+</div>
+
+					
 </div>
 </div>
 </section>
@@ -136,7 +225,7 @@
 						<section id="two">
 							<div class="container">
 								<h3>Things I Can Do</h3>
-								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+								<p></p>
 								<ul class="feature-icons">
 									<li class="fa-code">Write all the code</li>
 									<li class="fa-cubes">Stack small boxes</li>
@@ -576,9 +665,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		</div>
 		<script>
-		 $(document).ready(function() {
-                    $.timeliner({});
-            });
+	$(document).ready(function() {
+			$.timeliner({});
+			// Colorbox Modal
+			$(".CBmodal").colorbox({inline:true, initialWidth:100, maxWidth:682, initialHeight:100, transition:"elastic",speed:750});
+		});
 		
 		
 	

@@ -1,5 +1,5 @@
 /* ======= DEMO LAYOUT ======= */
-
+@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 .container {
   width: 940px;
@@ -21,6 +21,7 @@ h2 {
   font-weight: 400;
   margin: 5px 0;
   letter-spacing: .1em;
+ font-family:"Lato" Palatino, "Times New Roman", Times, serif;
 }
 h3 {
   font-size: 1.6em;
